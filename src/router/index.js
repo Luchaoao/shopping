@@ -8,6 +8,11 @@ const router = createRouter({
       name: 'home',
       component: () => import('@/views/HomeView.vue')
     },
+    {
+      path: '/cartcheck',
+      name: 'cartcheck',
+      component: () => import('@/views/Cartcheck.vue')
+    },
   ],
 });
 

@@ -22,7 +22,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
@@ -52,7 +52,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
@@ -82,7 +82,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
@@ -112,7 +112,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
@@ -142,7 +142,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
@@ -172,7 +172,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
@@ -202,7 +202,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
@@ -232,7 +232,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
@@ -262,7 +262,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
@@ -292,7 +292,7 @@ export default {
 			<div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
 				<div>
 					<div>
-						<img src="@/assets/images/300x300.png" alt="">
+						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
 						<div class="font-bold text-2xl">Bitcoin</div>
