@@ -24,11 +24,11 @@ export default {
 	<main>
 		<div class="font-bold text-3xl mt-3 ms-3">商品列表</div>
 		<div class="flex justify-end me-3">
-			<div @click="chanteState('normal')">
+			<div class="cursor-pointer" @click="chanteState('normal')">
 				<img v-if="(arrangement === 'normal')" src="@/assets/images/網狀p.png" alt="">
 				<img v-else src="@/assets/images/網狀n.png" alt="">
 			</div>
-			<div @click="chanteState('list')">
+			<div class="cursor-pointer" @click="chanteState('list')">
 				<img v-if="(arrangement === 'list')" src="@/assets/images/條列p.png" alt="">
 				<img v-else src="@/assets/images/條列n.png" alt="">
 			</div>
