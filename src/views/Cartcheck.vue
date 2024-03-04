@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
-    <div class="bg-[#40798C] min-h-screen">
-        <div class="font-bold text-3xl mt-3 ms-3 text-white">購物車確認</div>
+    <div>
+        <div class="font-bold text-3xl mt-3 ms-3 ">購物車確認</div>
 
         <div class="flex border-t border-b justify-around mt-5 p-2 invisible text-white">
             <div>挑選</div>
@@ -22,7 +22,7 @@ export default {
             <div>價錢</div>
             <div>數量</div>
         </div>
-        <div class="flex border-b border-t justify-around items-center mt-5 p-5 text-white">
+        <div class="flex border-b border-t justify-around items-center mt-5 p-5">
             <div>
                 <input type="checkbox">
             </div>
@@ -45,10 +45,10 @@ export default {
         </div>
         <div class="flex justify-between items-center mt-10">
             <div class="bg-red-500 p-2 ms-2 rounded text-white">回上頁繼續購買</div>
-            <div class="flex flex-col text-white me-5">
+            <div class="flex flex-col me-5">
                 <div class="mb-1">商品數量:2</div>
                 <div class="mb-1">商品金額:$500</div>
-                <div class="mb-1">確認購買</div>
+                <div class="mb-1 bg-blue-500 p-2 text-center rounded text-white">確認購買</div>
             </div>
         </div>
     </div>

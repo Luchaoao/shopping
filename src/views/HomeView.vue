@@ -13,7 +13,7 @@ export default {
 
 <template>
 	<main>
-		<div class="font-bold text-3xl mt-3 ms-3 text-white">商品列表</div>
+		<div class="font-bold text-3xl mt-3 ms-3">商品列表</div>
 		<div class="flex justify-end me-3">
 			<img src="@/assets/images/網狀.png" alt="">
 			<img src="@/assets/images/條列.png" alt="">
