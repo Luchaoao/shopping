@@ -35,19 +35,8 @@ export default {
 		</div>
 		<div v-if="(arrangement === 'normal')" class="flex gap-5 flex-wrap justify-center mt-5">
 			<normal></normal>
-			<normal></normal>
-			<normal></normal>
-			<normal></normal>
-			<normal></normal>
-			<normal></normal>
 		</div>
 		<div v-else class="flex gap-5 flex-wrap justify-center mt-5">
-			<list></list>
-			<list></list>
-			<list></list>
-			<list></list>
-			<list></list>
-			<list></list>
 			<list></list>
 		</div>
 	</main>

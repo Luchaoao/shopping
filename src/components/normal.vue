@@ -1,16 +1,29 @@
 <script>
+export default {
+    data() {
+        return {
+            product: [],
+        }
+    },
+    mounted() {
+        fetch('./MOCK_DATA.json')
+            .then(res => res.json())
+            .then(data => (this.product = data))
+            .catch(error => console.error(error));
+    },
+}
 </script>
 
 <template>
-    <div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5">
+    <div class="w-1/6 border-[1px] rounded-lg flex flex-col mb-5" v-for="(item, index) in product" :key="item.id">
 				<div>
 					<div>
 						<img class="rounded-t-lg w-full" src="@/assets/images/300x300.png" alt="">
 					</div>
 					<div class="bg-slate-100 h-[250px] bg-opacity-30 pl-3 flex flex-col gap-3 pt-3">
-						<div class="font-bold text-2xl">Bitcoin</div>
-						<div>Immunization not carried out because of caregiver refusal</div>
-						<div>價格: 954</div>
+						<div class="font-bold text-2xl">{{ item.name }}</div>
+						<div>{{ item.description }}</div>
+						<div>$ {{ item.price }}</div>
 						<div class="flex mb-2">數量：
 							<div class="ms-5 border mb-3 h-[35px] flex justify-center items-center rounded-l-3xl p-2 cursor-pointer">
 								<img src="@/assets/images/minus.png" alt="">

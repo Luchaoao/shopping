@@ -1,16 +1,27 @@
 <script>
+export default {
+    data() {
+        return {
+            product: [],
+        }
+    },
+    mounted() {
+        fetch('./MOCK_DATA.json')
+            .then(res => res.json())
+            .then(data => (this.product = data))
+            .catch(error => console.error(error));
+    },
+}
 </script>
 
 <template>
-    <div class="flex justify-around w-full">
+    <div class="flex justify-around w-full" v-for="(item, index) in product" :key="item.id">
         <div>
             <img class="w-[250px]" src="@/assets/images/300x300.png" alt="">
         </div>
-        <div class="self-center text-center">Bitcoin</div>
-        <div class="self-center tracking-tight leading-7 flex-wrap">
-            Immunization not carried out because of caregiver refusal
-        </div>
-        <div class="self-center text-center">$954</div>
+        <div class="self-center text-center">{{ item.name }}</div>
+        <div class="self-center tracking-tight leading-7 flex-wrap">{{ item.description }}</div>
+        <div class="self-center text-center">$ {{ item.price }}</div>
         <div class="self-center">
             <section class="mb-3 flex">
                 <div class="ms-5 border mb-3 h-[35px] flex justify-center items-center rounded-l-3xl p-2 cursor-pointer">
